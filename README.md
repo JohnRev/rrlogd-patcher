@@ -9,7 +9,7 @@ The script has been tested on Gen1 firmware 3514 and Gen2 firmware 1780, but sho
 # Usage
 * Copy the rrlogd from your robot`scp root@roborock-ip:/opt/rockrobo/rrlog/rrlogd ./`
 * Copy `patcher.py` to the same folder
-* Run `python patcher2.py` (requires python >= 3)
+* Run `python patcher.py` (requires python >= 3)
 * The python file will output the patched binary into `rrlogd_patch`
 * Copy the patched binary to the robot `scp rrlogd_patch root@roborock-ip:/root/`
 * `ssh root@roborock-ip`
