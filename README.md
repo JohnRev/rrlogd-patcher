@@ -21,3 +21,6 @@ The script has been tested on Gen1 firmware 3514 and Gen2 firmware 1780, but sho
 # Issues
 As previously stated, this script has only been tested on a couple of firmwares, but should still work on other newer firmwares, as long as the encryption method is not changed.
 If you encounter any problems, open an issue and clearly state the vacuum generation and firmware used.
+
+# Credits
+* [@robosophus](https://github.com/robosophus/rrlogd-patcher) for FW 1886 support
