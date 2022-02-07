@@ -14,8 +14,8 @@ The script has been tested on Gen1 firmware 3514 and Gen2 firmware 1780, but sho
 * Copy the patched binary to the robot `scp rrlogd_patch root@roborock-ip:/root/`
 * `ssh root@roborock-ip`
 * Create a backup of the original `rrlogd` `mv /opt/rockrobo/rrlog/rrlogd opt/rockrobo/rrlog/rrlogd.bkp`
-* Replace with the patched binary `mv /root/rrlogd_patch opt/rockrobo/rrlog/rrlogd`
-* Give it execution permission `chmod +x /root/rrlogd_patch opt/rockrobo/rrlog/rrlogd`
+* Replace with the patched binary `mv /root/rrlogd_patch /opt/rockrobo/rrlog/rrlogd`
+* Give it execution permission `chmod +x /opt/rockrobo/rrlog/rrlogd`
 * Reboot the vacuum
 
 # Issues
